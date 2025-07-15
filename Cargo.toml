@@ -1,0 +1,23 @@
+[package]
+name = "modulink-rs"
+version = "0.1.0"
+edition = "2021"
+authors = ["Orchestrate LLC"]
+description = "A modular, composable, and observable async function orchestration library for Rust, following the ModuLink universal template."
+license = "Apache-2.0"
+documentation = "https://github.com/orchestrate-solutions/modulink-rs#readme"
+homepage = "https://github.com/orchestrate-solutions/modulink-rs"
+repository = "https://github.com/orchestrate-solutions/modulink-rs"
+
+[dependencies]
+tokio = { version = "1.0", features = ["full"] }
+serde = { version = "1.0", features = ["derive"] }
+tracing = "0.1"
+serde_json = "1.0"
+async-trait = "0.1"
+axum = { version = "0.8.4", features = ["json", "macros"] }
+
+[dev-dependencies]
+anyhow = "1.0"
+reqwest = { version = "0.12.22", features = ["json"] }
+tempfile = "3"
