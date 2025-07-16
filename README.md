@@ -1,4 +1,15 @@
+
 # ModuLink-rs
+
+## How to Download
+
+Add ModuLink-rs to your project by including it in your `Cargo.toml`:
+
+```toml
+[dependencies]
+modulink-rs = "1.0"
+```
+
 
 ## Why do I care?
 
