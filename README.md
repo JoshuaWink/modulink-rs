@@ -200,6 +200,10 @@ tokio::spawn(async move { listener.start().await.unwrap(); });
 3. Explore the [Cheatsheet](./docs/CHEATSHEET.md) for quick syntax.
 4. Dive into [Advanced Cheatsheet](./docs/CHEATSHEET_ADVANCED.md) for custom and generic workflows.
 
+
+## TODO
+- [ ] Finish CI setup for automated testing and publishing
+
 ## License
 ModuLink-rs is licensed under the Apache License, Version 2.0. See [LICENSE](./LICENSE) for details.
 
