@@ -1,4 +1,4 @@
-# ModuLink-RS
+# ModuLink-rs
 
 Composable, observable, and testable async/sync chains for Rust. ModuLink-RS enables modular orchestration of pure functions with context-passing, middleware, and branching—designed for clarity, safety, and real-world scale.
 
